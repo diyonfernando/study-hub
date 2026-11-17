@@ -5,6 +5,7 @@ export const courses = [
     credits: 3,
     level: 'Intermediate',
     completed: false,
+    instructor: 'Alex Perera',
   },
   {
     code: 'CSI1207',
@@ -12,6 +13,7 @@ export const courses = [
     credits: 3,
     level: 'Beginner',
     completed: true,
+    instructor: 'Sam Fernando',
   },
   {
     code: 'SOF1101',
@@ -19,6 +21,7 @@ export const courses = [
     credits: 4,
     level: 'Beginner',
     completed: true,
+    instructor: 'Jamie Silva',
   },
   {
     code: 'SOF2102',
@@ -26,6 +29,7 @@ export const courses = [
     credits: 3,
     level: 'Intermediate',
     completed: false,
+    instructor: 'Taylor Dias',
   },
   {
     code: 'NET2105',
@@ -33,6 +37,7 @@ export const courses = [
     credits: 2,
     level: 'Intermediate',
     completed: false,
+    instructor: 'Morgan Peiris',
   },
   {
     code: 'SOF3301',
@@ -40,5 +45,6 @@ export const courses = [
     credits: 3,
     level: 'Advanced',
     completed: false,
+    instructor: 'Casey de Silva',
   },
 ]

@@ -96,3 +96,25 @@ section > h2 {
   background: #fff0cf;
   color: #7a5200;
 }
+
+.level-beginner {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.level-intermediate {
+  background: #ede9fe;
+  color: #5b21b6;
+}
+
+.level-advanced {
+  background: #ffe4e6;
+  color: #9f1239;
+}
+
+footer {
+  padding: 1rem;
+  border-top: 2px solid var(--accent);
+  text-align: center;
+  color: var(--muted);
+}

@@ -4,6 +4,7 @@ export default function CourseCard({
   credits,
   level,
   completed,
+  instructor,
 }) {
   return (
     <article className="card">
@@ -11,9 +12,15 @@ export default function CourseCard({
 
       <h3>{title}</h3>
 
-      <p className="meta">
-        {credits} credits · {level}
+      <p className="meta">{credits} credits</p>
+
+      <p>
+        <span className={`badge level-${level.toLowerCase()}`}>
+          {level}
+        </span>
       </p>
+
+      <p className="meta">Instructor: {instructor}</p>
 
       <span className={completed ? 'badge done' : 'badge todo'}>
         {completed ? 'Completed' : 'In progress'}

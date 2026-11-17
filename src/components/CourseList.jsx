@@ -11,6 +11,7 @@ export default function CourseList({ courses }) {
           credits={course.credits}
           level={course.level}
           completed={course.completed}
+          instructor={course.instructor}
         />
       ))}
     </div>
